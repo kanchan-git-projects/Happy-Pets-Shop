@@ -1,0 +1,27 @@
+/* navbar: #9e5959 */
+
+* {
+  font-family: "Happy Monkey", system-ui;
+}
+
+html {
+  background-color: rgb(236, 141, 111);
+}
+
+.gradient-in-background {
+  background: linear-gradient(300deg, #9c5606, #f1ab83, #e97532);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
